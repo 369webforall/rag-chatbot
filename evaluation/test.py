@@ -22,3 +22,4 @@ def load_tests() -> list[TestQuestion]:
             data = json.loads(line.strip())
             tests.append(TestQuestion(**data))
     return tests
+
